@@ -1,8 +1,9 @@
 import Feather from '@expo/vector-icons/Feather';
 import dayjs from 'dayjs';
-import { Image, Pressable, Text, View } from 'react-native';
-import 'dayjs/locale/es';
 import { Link } from 'expo-router';
+import { Image, Pressable, Text, View } from 'react-native';
+
+import 'dayjs/locale/es';
 dayjs.locale('es');
 
 interface Event {
