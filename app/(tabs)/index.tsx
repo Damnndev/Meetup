@@ -7,7 +7,7 @@ import EventListItem from '~/components/EventListItem';
 export default function Home() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Eventos' }} />
+      <Stack.Screen options={{ title: 'Eventos', headerTitleAlign: 'center' }} />
       <FlatList
         data={events}
         renderItem={({ item }) => <EventListItem event={item} />}
