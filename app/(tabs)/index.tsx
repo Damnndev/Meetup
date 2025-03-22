@@ -1,10 +1,18 @@
 import { Stack } from 'expo-router';
-import { View } from 'react-native';
+import { FlatList } from 'react-native';
+
+import events from '~/assets/events.json';
+import EventListItem from '~/components/EventListItem';
 
 export default function Home() {
   return (
     <>
-      <Stack.Screen options={{ title: 'Events' }} />
+      <Stack.Screen options={{ title: 'Eventos' }} />
+      <FlatList
+        data={events}
+        renderItem={({ item }) => <EventListItem event={item} />}
+        className="bg-white"
+      />
     </>
   );
 }

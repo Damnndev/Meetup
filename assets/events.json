@@ -1,162 +1,162 @@
 [
   {
     "id": "1",
-    "title": "React Native Workshop",
-    "description": "Learn the basics of React Native and build your first app.",
+    "title": "Taller de React Native",
+    "description": "Aprende los fundamentos de React Native y construye tu primera aplicación.",
     "datetime": "2024-10-10T14:00:00",
-    "location": "Tech Hub, Barcelona",
+    "location": "Centro Tecnológico, Barcelona",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg"
   },
   {
     "id": "2",
-    "title": "Supabase for Beginners",
-    "description": "A beginner's guide to Supabase and how to integrate it with your apps.",
+    "title": "Supabase para Principiantes",
+    "description": "Una guía para principiantes sobre Supabase y cómo integrarlo con tus aplicaciones.",
     "datetime": "2024-10-11T16:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg"
   },
   {
     "id": "3",
-    "title": "Building APIs with Supabase",
-    "description": "Learn how to create powerful APIs with Supabase.",
+    "title": "Creando APIs con Supabase",
+    "description": "Aprende a crear APIs potentes con Supabase.",
     "datetime": "2024-10-12T18:00:00",
-    "location": "123 Tech Street, New York",
+    "location": "Calle Tech 123, Nueva York",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg"
   },
   {
     "id": "4",
-    "title": "Advanced React Native UI",
-    "description": "Dive deep into advanced UI components and animations in React Native.",
+    "title": "Interfaz Avanzada de React Native",
+    "description": "Adéntrate en componentes avanzados de interfaz y animaciones en React Native.",
     "datetime": "2024-10-13T10:00:00",
-    "location": "Innovation Center, Berlin",
+    "location": "Centro de Innovación, Berlín",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg"
   },
   {
     "id": "5",
-    "title": "AI Integration in Apps",
-    "description": "Discover how to integrate AI into your mobile applications.",
+    "title": "Integración de IA en Aplicaciones",
+    "description": "Descubre cómo integrar IA en tus aplicaciones móviles.",
     "datetime": "2024-10-14T15:00:00",
-    "location": "AI Labs, London",
+    "location": "Laboratorios de IA, Londres",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg"
   },
   {
     "id": "6",
-    "title": "Intro to Expo",
-    "description": "Get started with Expo and learn how to build cross-platform apps.",
+    "title": "Introducción a Expo",
+    "description": "Comienza con Expo y aprende a desarrollar aplicaciones multiplataforma.",
     "datetime": "2024-10-15T12:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/6.jpg"
   },
   {
     "id": "7",
-    "title": "JavaScript Essentials",
-    "description": "Master the fundamentals of JavaScript for web and mobile development.",
+    "title": "Fundamentos de JavaScript",
+    "description": "Domina los fundamentos de JavaScript para el desarrollo web y móvil.",
     "datetime": "2024-10-16T09:00:00",
     "location": "Coders Arena, Madrid",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/7.jpeg"
   },
   {
     "id": "8",
-    "title": "Mastering Mobile App Design",
-    "description": "A complete guide to designing beautiful and user-friendly mobile apps.",
+    "title": "Domina el Diseño de Aplicaciones Móviles",
+    "description": "Una guía completa para diseñar aplicaciones móviles hermosas y fáciles de usar.",
     "datetime": "2024-10-17T17:00:00",
-    "location": "Design Studio, Paris",
+    "location": "Estudio de Diseño, París",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg"
   },
   {
     "id": "9",
     "title": "Firebase vs Supabase",
-    "description": "An in-depth comparison of Firebase and Supabase for backend development.",
+    "description": "Una comparación detallada entre Firebase y Supabase para el desarrollo de backend.",
     "datetime": "2024-10-18T14:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/9.jpg"
   },
   {
     "id": "10",
-    "title": "Full-Stack React Native Development",
-    "description": "Build full-stack mobile apps using React Native, Supabase, and Node.js.",
+    "title": "Desarrollo Full-Stack con React Native",
+    "description": "Crea aplicaciones móviles full-stack usando React Native, Supabase y Node.js.",
     "datetime": "2024-10-19T11:00:00",
-    "location": "Tech School, Los Angeles",
+    "location": "Escuela de Tecnología, Los Ángeles",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg"
   },
   {
     "id": "11",
-    "title": "Optimizing App Performance",
-    "description": "Learn how to improve the performance of your React Native apps.",
+    "title": "Optimizando el Rendimiento de Aplicaciones",
+    "description": "Aprende cómo mejorar el rendimiento de tus aplicaciones de React Native.",
     "datetime": "2024-10-20T13:00:00",
-    "location": "Dev Conference, San Francisco",
+    "location": "Conferencia de Desarrolladores, San Francisco",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg"
   },
   {
     "id": "12",
-    "title": "React Navigation Deep Dive",
-    "description": "Understand the inner workings of React Navigation and how to implement complex navigations.",
+    "title": "Análisis Profundo de React Navigation",
+    "description": "Comprende el funcionamiento interno de React Navigation y cómo implementar navegaciones complejas.",
     "datetime": "2024-10-21T16:00:00",
-    "location": "Tech Lab, Amsterdam",
+    "location": "Laboratorio Tecnológico, Ámsterdam",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/3.jpg"
   },
   {
     "id": "13",
-    "title": "TypeScript for React Native",
-    "description": "Enhance your React Native code with TypeScript for better development.",
+    "title": "TypeScript para React Native",
+    "description": "Mejora tu código de React Native con TypeScript para un mejor desarrollo.",
     "datetime": "2024-10-22T09:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/4.jpg"
   },
   {
     "id": "14",
-    "title": "GraphQL with React Native",
-    "description": "A hands-on session to learn how to integrate GraphQL into React Native apps.",
+    "title": "GraphQL con React Native",
+    "description": "Una sesión práctica para aprender cómo integrar GraphQL en aplicaciones React Native.",
     "datetime": "2024-10-23T12:00:00",
-    "location": "Tech World, Tokyo",
+    "location": "Mundo Tecnológico, Tokio",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/5.jpeg"
   },
   {
     "id": "15",
-    "title": "State Management in React Native",
-    "description": "A comprehensive guide to managing state with Redux and Context API.",
+    "title": "Gestión de Estado en React Native",
+    "description": "Una guía completa sobre la gestión de estado con Redux y la API de Contexto.",
     "datetime": "2024-10-24T10:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/6.jpg"
   },
   {
     "id": "16",
-    "title": "Testing React Native Apps",
-    "description": "Best practices for testing and debugging React Native applications.",
+    "title": "Pruebas de Aplicaciones React Native",
+    "description": "Las mejores prácticas para probar y depurar aplicaciones de React Native.",
     "datetime": "2024-10-25T14:00:00",
-    "location": "Developer Hub, Sydney",
+    "location": "Centro de Desarrolladores, Sídney",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/7.jpeg"
   },
   {
     "id": "17",
-    "title": "Deploying React Native Apps",
-    "description": "Learn how to deploy your React Native apps to App Store and Google Play.",
+    "title": "Desplegando Aplicaciones de React Native",
+    "description": "Aprende a publicar tus aplicaciones de React Native en App Store y Google Play.",
     "datetime": "2024-10-26T11:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/8.jpg"
   },
   {
     "id": "18",
-    "title": "Managing App Releases",
-    "description": "A step-by-step guide to versioning and managing app releases.",
+    "title": "Gestión de Lanzamientos de Aplicaciones",
+    "description": "Una guía paso a paso para la versionización y gestión de lanzamientos de aplicaciones.",
     "datetime": "2024-10-27T13:00:00",
-    "location": "Tech Conference, Toronto",
+    "location": "Conferencia de Tecnología, Toronto",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/9.jpg"
   },
   {
     "id": "19",
-    "title": "Custom Components in React Native",
-    "description": "Learn how to build reusable custom components for your React Native projects.",
+    "title": "Componentes Personalizados en React Native",
+    "description": "Aprende a crear componentes reutilizables para tus proyectos de React Native.",
     "datetime": "2024-10-28T15:00:00",
-    "location": "Dev Meetup, Dublin",
+    "location": "Reunión de Desarrolladores, Dublín",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/1.jpg"
   },
   {
     "id": "20",
-    "title": "Building Cross-Platform Apps",
-    "description": "A guide to building apps that run on both iOS and Android using React Native.",
+    "title": "Construyendo Aplicaciones Multiplataforma",
+    "description": "Una guía para crear aplicaciones que funcionen tanto en iOS como en Android usando React Native.",
     "datetime": "2024-10-29T16:00:00",
-    "location": "Online",
+    "location": "En línea",
     "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/images/2.jpg"
   }
 ]
