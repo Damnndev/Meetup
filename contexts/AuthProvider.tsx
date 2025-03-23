@@ -3,12 +3,17 @@ import { createContext, useContext, useEffect, useState } from 'react';
 import { ActivityIndicator } from 'react-native';
 
 import { supabase } from '~/utils/supabase';
-
-const AuthContext = createContext({});
-
 interface AuthContextType {
-  isAuthenticated?: boolean;
+  isAuthenticated: boolean | null;
+  session: Session | null;
+  user: Session['user'] | undefined;
 }
+
+const AuthContext = createContext<AuthContextType>({
+  isAuthenticated: null,
+  session: null,
+  user: undefined,
+});
 
 export default function AuthProvider({ children }: { children: React.ReactElement }) {
   const [session, setSession] = useState<Session | null>(null);
