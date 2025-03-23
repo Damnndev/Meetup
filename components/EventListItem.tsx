@@ -8,10 +8,10 @@ dayjs.locale('es');
 
 interface Event {
   id: string;
-  image: string;
+  image_uri: string;
   location: string;
   title: string;
-  datetime: string;
+  date: string;
 }
 export default function EventListItem({ event }: { event: Event }) {
   return (
@@ -20,7 +20,7 @@ export default function EventListItem({ event }: { event: Event }) {
         <View className="flex-row">
           <View className="flex-1 gap-2">
             <Text className="text-lg font-semibold uppercase text-yellow-600">
-              {dayjs(event.datetime).format('ddd D MMM · HH:mm A')}
+              {dayjs(event.date).format('ddd D MMM · HH:mm A')}
             </Text>
             <Text className="text-xl font-bold" numberOfLines={2}>
               {event.title}
@@ -29,7 +29,7 @@ export default function EventListItem({ event }: { event: Event }) {
             <Text className="text-gray-700">{event.location}</Text>
           </View>
 
-          <Image source={{ uri: event.image }} className="aspect-video w-2/5 rounded-xl" />
+          <Image source={{ uri: event.image_uri }} className="aspect-video w-2/5 rounded-xl" />
         </View>
 
         <View className="flex-row gap-3">
