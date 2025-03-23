@@ -52,7 +52,8 @@ export default function Auth() {
     });
 
     if (error) Alert.alert(error.message);
-    if (!session) Alert.alert('Please check your inbox for email verification!');
+    if (!session)
+      Alert.alert('Por favor revisa tu bandeja de entrada para verificar el correo electrónico');
     setLoading(false);
   }
 
@@ -79,13 +80,13 @@ export default function Auth() {
           onPress={() => signInWithEmail()}
           disabled={loading}
           className="flex-auto items-center rounded-md border-2 border-rose-500 p-3 px-8">
-          <Text className="text-lg font-bold text-rose-500">Registrarse</Text>
+          <Text className="text-lg font-bold text-rose-500">Iniciar sesión</Text>
         </Pressable>
         <Pressable
           onPress={() => signUpWithEmail()}
           disabled={loading}
           className="flex-auto items-center rounded-md bg-rose-500 p-3 px-8">
-          <Text className="text-lg font-bold text-white">Iniciar sesión</Text>
+          <Text className="text-lg font-bold text-white">Registrarse</Text>
         </Pressable>
       </View>
     </View>
